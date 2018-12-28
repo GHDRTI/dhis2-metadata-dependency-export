@@ -270,13 +270,13 @@ function processDashboard() {
 	if (!validateGroupReferences()) success = false;	
 	
 	//Verify that favourites only use relative orgunits
-	if (!validateFavoriteOrgunits()) success = false;
+	//if (!validateFavoriteOrgunits()) success = false;
 	
 	//Verify that favourites only use indicators
-	if (!validateFavoriteDataItems()) success = false;
+	//if (!validateFavoriteDataItems()) success = false;
 	
 	//Verify that no unsupported data dimensions are used
-	if (!validateFavoriteDataDimension()) success = false;
+	//if (!validateFavoriteDataDimension()) success = false;
 	
 	
 	if (success) {
@@ -413,23 +413,23 @@ function processAggregate() {
 	
 	//Verify that all data elements referred in indicators, validation rules,
 	//predictors are included
-	if (!validateDataElementReference()) success = false;
+	//if (!validateDataElementReference()) success = false;
 
 	//Remove invalid references to data elements or indicators from groups
 	//Verify that there are no data elements or indicators without groups
 	if (!validateGroupReferences()) success = false;	
 	
 	//Verify that favourites only use relative orgunits
-	if (!validateFavoriteOrgunits()) success = false;
+	//if (!validateFavoriteOrgunits()) success = false;
 	
 	//Verify that favourites only use indicators
-	if (!validateFavoriteDataItems()) success = false;
+	//if (!validateFavoriteDataItems()) success = false;
 	
 	//Verify that no unsupported data dimensions are used
-	if (!validateFavoriteDataDimension()) success = false;
+	//if (!validateFavoriteDataDimension()) success = false;
 
 	//Verify that data sets with section include all data elements
-	if (!validationDataSetSections()) success = false;
+	//if (!validationDataSetSections()) success = false;
 	
 	if (success) {
 		console.log("Ready to save " + currentExport._name);
@@ -562,7 +562,7 @@ function processTracker() {
 	
 	//Verify that all data elements referred in indicators, validation rules,
 	//predictors are included
-	if (!validateDataElementReference()) success = false;
+	//if (!validateDataElementReference()) success = false;
 
 	//Verify that all program indicators referred to in indicators and predictors are included
 	if (!validateProgramIndicatorReference()) success = false;
@@ -572,16 +572,16 @@ function processTracker() {
 	if (!validateGroupReferences()) success = false;	
 	
 	//Verify that favourites only use relative orgunits
-	if (!validateFavoriteOrgunits()) success = false;
+	//if (!validateFavoriteOrgunits()) success = false;
 	
 	//Verify that favourites only use indicators
-	if (!validateFavoriteDataItems()) success = false;
+	// if (!validateFavoriteDataItems()) success = false;
 	
 	//Verify that no unsupported data dimensions are used
 	if (!validateFavoriteDataDimension()) success = false;
 
 	//Verify that data sets with section include all data elements
-	if (!validationDataSetSections()) success = false;
+	//if (!validationDataSetSections()) success = false;
 
 
 	/** CUSTOM MODIFICATIONS */

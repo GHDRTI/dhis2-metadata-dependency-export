@@ -1,0 +1,104 @@
+{
+  "export": [
+    {
+      "_basePath": "../", 
+      "_code": "NTD", 
+      "_name": "NTD dashboard", 
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [
+          "pyu2ZlNKbzQ"
+        ], 
+        "adminGroupIds": [
+          "Ubzlyfqm1gO"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "dashboardAggregate", 
+      "_url": [
+        "https://ethntd.rti-ghd.org"
+      ], 
+      "_version": "1.0.BETA", 
+      "dashboardIds": [
+        "c8OWGkhdtlV", 
+        "cjE2TKWs5ii", 
+        "pFb6cDiIL3w", 
+        "dopCUQG8Oeu", 
+        "ijW9L05c7qf", 
+        "QrzlH646rOh", 
+        "jv5rlMWxwqe"
+      ], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "VASmEvzouun", 
+        "x19daxObfQL", 
+        "QCrsjqhAcWA"
+      ]
+    }, 
+    {
+      "_basePath": "../", 
+      "_code": "NTD", 
+      "_name": "NTD complete", 
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [
+          "pyu2ZlNKbzQ"
+        ], 
+        "adminGroupIds": [
+          "Ubzlyfqm1gO"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "completeAggregate", 
+      "_url": [
+        "https://ethntd.rti-ghd.org"
+      ], 
+      "_version": "1.0.BETA", 
+      "dashboardIds": [
+        "c8OWGkhdtlV", 
+        "cjE2TKWs5ii", 
+        "pFb6cDiIL3w", 
+        "dopCUQG8Oeu", 
+        "ijW9L05c7qf", 
+        "QrzlH646rOh", 
+        "jv5rlMWxwqe"
+      ], 
+      "dataElementGroupIds": [
+        "Rz5eES7KYWz", 
+        "nZmhadkAo1f", 
+        "dOrWwQlnDYF"
+      ], 
+      "dataSetIds": [
+        "HtwI1iP4pNU", 
+        "YLmIzTVtnlB", 
+        "J347rXHKt4n", 
+        "Ce4HQRBfvo2", 
+        "HQJ6bWQ7gB2", 
+        "QowcbJQR7FI", 
+        "eRspuUuKd3y"
+      ], 
+      "exportDataSetIds": [
+        "HtwI1iP4pNU", 
+        "YLmIzTVtnlB", 
+        "J347rXHKt4n", 
+        "Ce4HQRBfvo2", 
+        "HQJ6bWQ7gB2", 
+        "QowcbJQR7FI", 
+        "eRspuUuKd3y"
+      ], 
+      "exportIndicatorGroupsIds": [
+
+      ], 
+      "indicatorGroupIds": [
+        "VASmEvzouun", 
+        "x19daxObfQL", 
+        "QCrsjqhAcWA"
+      ], 
+      "validationRuleGroupIds": [
+
+      ]
+    }
+  ]
+}

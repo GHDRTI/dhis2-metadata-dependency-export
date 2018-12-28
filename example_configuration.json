@@ -17,7 +17,6 @@
       }, 
       "_type": "dashboardAggregate", 
       "_url": [
-        "https://who.dhis2.net/dev", 
         "https://who.dhis2.net/demo"
       ], 
       "_version": "1.0.BETA", 
@@ -60,7 +59,6 @@
       }, 
       "_type": "completeAggregate", 
       "_url": [
-        "https://who.dhis2.net/dev", 
         "https://who.dhis2.net/demo"
       ], 
       "_version": "1.0.BETA", 
@@ -95,7 +93,7 @@
         "kiODgwGG9I2"
       ], 
       "exportDataSetIds": [
-        "gUUBxTWcEUi"
+
       ], 
       "exportIndicatorGroupsIds": [
         "S0n1torLnUz"
